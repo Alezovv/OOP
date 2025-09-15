@@ -1,4 +1,4 @@
-#include "./include/unset_bits.h"
+#include "unset_bits.h"
 
 int main() {
     string number;
