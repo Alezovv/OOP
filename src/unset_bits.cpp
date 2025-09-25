@@ -1,9 +1,9 @@
 #include "unset_bits.h"
 
 long eliminate_unset_bits(string number){
-    int len = number.length();
-    int count = 0;
-    for(int i = 0; i < len; i++){
+    size_t len = number.length();
+    size_t count = 0;
+    for(size_t i = 0; i < len; i++){
         if (number[i] == '1'){
             number[count++] = '1';
         }
